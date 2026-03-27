@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 
-# Inicializa o aplicativo
+
 app = FastAPI(title="API de Voos - Simulação GOL")
 
-# Banco de dados fictício
+
 voos_mock = [
     {"voo": "G3 1540", "destino": "Rio de Janeiro (SDU)", "status": "No Horário"},
     {"voo": "G3 1022", "destino": "Salvador (SSA)", "status": "Embarque Próximo"},
